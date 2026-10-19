@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Gold Roast House</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="goldstyle.css">
+  </head>
+<body>
+ <header class="main-header">
+  <div class="top-bar">
+    <div class="container d-flex justify-content-between"><small><i class="bi bi-geo-alt"></i> Siaya | Kenya</small>
+      <div class="d-flex gap-3"><a href="#"><i class="bi bi-instagram"></i></a><a href="https://wa.me/254705583287"><i class="bi bi-whatsapp"></i></a>
+      </div>
+    </div>
+  </div>
+ <nav class="navbar navbar-expand-lg">
+  <div class="container"><a class="navbar-brand d-flex align-items-center" href="index.html"><img src="image/Glogo.png" class="logo" alt="logo"><span class="brand-text">Gold Roast House</span></a>
+    <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="collection.html">Coffee Selection</a></li>
+        <li class="nav-item"><a class="nav-link" href="equipment.html">Brewing Equipment</a></li>
+        <li class="nav-item"><a class="nav-link" href="events.html">Events & Workshops</a></li>
+        <li class="nav-item"><a class="nav-link" href="offers.html">Promotions & Offers</a></li>
+      </ul>
+      <a href="cart.html" class="btn btn-dark rounded-pill cart-link"><i class="bi bi-bag"></i> Cart <span id="cart-count" class="badge bg-warning text-dark">0</span></a>
+    </div>
+  </div>
+ </nav>
+ <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <video autoplay muted loop playsinline class="carousel-video"><source src="https://www.pexels.com/download/video/18173447/" type="video/mp4"></video>
+  <div class="carousel-caption">
+    <h1>From Farm to Cup</h1>
+    <p>Single-origin beans</p>
+    <a href="collection.html" class="btn btn-coffee mt-3">Shop Now</a>
+  </div>
+</div>
+<div class="carousel-item">
+  <video autoplay muted loop playsinline class="carousel-video"><source src="https://www.pexels.com/download/video/28396243/" type="video/mp4"></video>
+  <div class="carousel-caption">
+    <h1>Brew Like a Barista</h1>
+    <p>Espresso Machine</p>
+  </div>
+</div>
+<div class="carousel-item">
+  <video autoplay muted loop playsinline class="carousel-video"><source src="https://www.pexels.com/download/video/20018950/" type="video/mp4"></video>
+  <div class="carousel-caption">
+    <h1>Brewing workshops</h1>
+    <p>Join events</p>
+  </div>
+</div>
+</div>
+</div>
+</header>
+
+ <section class="shop-desc-section">
+  <div class="container">
+    <div class="row g-4 align-items-center">
+      <div class="col-lg-6"><span class="badge bg-warning text-dark rounded-pill mb-2">Since 2026</span>
+        <h2 class="shop-title">Affordable, Reliable, Secure</h2>
+        <p class="shop-text">We source direct from local farmers, roast in Siaya, deliver countrywide. Fresh weekly roast.</p>
+        <div class="d-flex gap-2 mt-3"><span class="desc-badge"><i class="bi bi-truck"></i> Free Delivery</span><span class="desc-badge"><i class="bi bi-shield-check"></i> Secure</span><span class="desc-badge"><i class="bi bi-cup-hot"></i> Fresh Roast</span>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="row g-3">
+          <div class="col-6">
+            <div class="mini-stat">
+              <h4>6+</h4>
+              <p>Blends</p>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="mini-stat">
+              <h4>1200+</h4>
+              <p>Customers</p>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="mini-stat">
+              <h4>3</h4>
+              <p>Weekly Events</p>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="mini-stat">
+              <h4>47</h4>
+              <p>Counties</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="container py-4">
+  <div class="search-wrap">
+    <i class="bi bi-search search-icon"></i><input type="text" id="goldSearch" class="search-input" placeholder="Search..."><span class="search-typing" id="typingText"></span>
+  </div>
+  <p class="small text-muted mt-2" id="searchResults"></p>
+</div>
+<section class="py-2">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card home-box"><img src="https://images.pexels.com/photos/29317659/pexels-photo-29317659.jpeg" alt="roasted beans">
+          <div class="card-body">
+            <h6>Roasted Beans</h6>
+            <p class="price">KES 1,250</p>
+            <button class="btn btn-dark rounded-pill w-100 add-cart">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card home-box"><img src="https://images.pexels.com/photos/3993824/pexels-photo-3993824.jpeg" alt="coffe grinder">
+          <div class="card-body">
+            <h6>Manual Grinder</h6>
+            <p class="price">KES 3,200</p>
+            <button class="btn btn-dark rounded-pill w-100 add-cart">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card home-box"><img src="https://images.pexels.com/photos/13736089/pexels-photo-13736089.jpeg" alt="equipment">
+          <div class="card-body">
+            <h6>French Press</h6>
+            <p class="price">KES 5,100</p>
+            <button class="btn btn-gold rounded-pill w-100 add-cart">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="modal fade" id="cartModal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content rounded-4">
+      <div class="modal-header">
+        <h5 id="cartModalTitle">Added</h5>
+        <button class="btn-close" data-bs-dismiss="modal">
+        </button>
+      </div>
+      <div class="modal-body">
+        <p id="cartModalText"></p>
+        <a href="cart.html" class="btn btn-dark rounded-pill">Go to Cart</a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="welcomeModal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content welcome-content">
+      <div class="modal-body text-center p-4">
+        <h3>Welcome 10% OFF</h3>
+        <div class="welcome-badge">
+          <p class="mb-0 fw-bold">New here?</p>
+        </div>
+        <form id="subscribe"><input type="email" id="subEmail" class="form-control mb-3 rounded-pill" placeholder="Email" required>
+          <button class="btn btn-warning w-100 rounded-pill fw-bold">CLAIM</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="footer-premium">
+<div class="container">
+  <div class="row g-4">
+    <div class="col-lg-4">
+      <div class="d-flex align-items-center gap-2">
+        <img src="image/Glogo.png" class="footer-logo" alt="logo">
+        <h5 class="footer-brand">Gold Roast House</h5>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <h6 class="footer-heading">Contact & Map</h6>
+      <iframe src="https://maps.google.com/maps?q=Siaya,Kenya&z=14&output=embed" class="footer-map" loading="lazy"></iframe><a href="https://wa.me/254705583287" class="btn btn-success btn-sm rounded-pill w-100 mt-2"><i class="bi bi-whatsapp"></i> WhatsApp</a>
+    </div>
+    <div class="col-lg-2">
+      <h6 class="footer-heading">Socials</h6>
+      <div class="d-flex flex-column gap-2">
+        <a href="#" class="btn btn-outline-light btn-sm rounded-pill"><i class="bi bi-instagram"></i> Instagram</a>
+        <a href="#" class="btn btn-outline-light btn-sm rounded-pill"><i class="bi bi-facebook"></i> Facebook</a>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <h6 class="footer-heading">Newsletter</h6>
+      <form id="footerNewsletter"><input type="email" id="footerEmail" class="form-control form-control-sm rounded-pill mb-2" placeholder="Your email" required>
+        <button class="btn btn-warning btn-sm rounded-pill w-100 fw-bold">Subscribe</button>
+      </form>
+    </div>
+  </div><div class="footer-bottom"><span>© 2026 Gold Roast House</span></div></div></footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="goldscript.js"></script>
+</body>
+</html>
